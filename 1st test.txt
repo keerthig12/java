@@ -1,0 +1,150 @@
+1)
+
+1) Variables in java -it is a container which can holds the values in it.
+       Ex :   int age = 25;
+		String name = Keerthi
+
+2) Types of Data types: 2 types :  primitive, non primitive 
+
+	1-byte  ex: byte age = 25;
+	2-short ex: short year = 2025;
+	3-int ex: int population = 1380004385;
+	4- long : long distance = 9876543210L;
+	5-float:  float price = 19.99f;
+	6-double: double pi value = 3.141592653589793;
+	7-char : char grade = 'A';
+	8-boolean : boolean is today holiday = true;
+
+3)  primitive                                        non - primitive     
+   -stores single value 				stores multiple values
+   -it is fixed in size 				the size is dependent on variables
+   -it includes int,float,boolean, char	includes array, string,list
+   - stores simple data structures 		stores complex data structures
+	(size, variable types)
+
+Ex: int age = 25;						Ex: String name = "Anu"				
+Boolean isTodayHoliday = true;			int[] numbers={1,2,3};
+age and isTodayHoliday are the			name and numbers are the non primitive types
+ primitive types
+
+4) Y=10
+
+5)0
+
+
+2)
+
+1) Method--Method is a block of code which is executed whenever the method is called.
+purpose- used for reusability purpose.
+
+ex: public class College{
+public static void main(String[] args){
+sem();
+
+public static void sem(){
+System.out.println("we have different sems in a college");
+}
+}
+
+
+2)public class Addition{
+public static void main(String[] args){
+
+int marks=sum(int a, int b);
+int value=sum(marks);
+System.out.println(marks);
+
+public static int sum(int a, int b){
+int summation= a+b;
+return a+b;
+
+
+3) void  													non-void
+
+-it do not return a value 								returns a value of a specific data type
+-performs actions, but never give back any 					performs actions, gives back the result				
+specific result					
+
+Ex: void printMessage(String message){					Ex: void addition(int a, int b){
+System.out.println(message);							return a+b;
+
+
+
+4) Answer:20
+
+5) Method overloading - allows a class to have multiple methods with the same name, but different parameter lists(like number,order,type of parameter)
+
+Ex:  public class calculator{
+
+public int add(int a, int b){
+return a+b;
+}
+
+public int add(int a, int b, int c){
+return a+b+c;
+}
+
+public static void main(String[] args){
+Calculator calculator = new Calculator();
+
+int sum1 = calculator.add(15, 15);
+System.out.println("Sum of two integers:" + sum1); 
+
+int sum2 = calculator.add(15, 15,10);
+System.out.println("Sum of three integers:" + sum2); 
+
+   }
+
+}
+
+
+6)
+
+
+
+4)
+1)Array- a group of elements have similar in types.
+it is different form normal variable from these characters:
+--- arrays are denoted in [].
+---it uses index to store the value.
+---index value start from 0.
+
+
+2) Declaration and initialization of array with example:
+
+public class Array{
+public static void main(String[] args){
+
+int value = {10,20,30,40,50}
+System.out.println(value[4]);
+}
+}
+
+
+3) Finding maximum elements in array:
+
+public class Elements{
+public static void main(String[]args){
+
+int[] amount= new int[i];
+for (int i=0; i<array.length[i])
+System.out.println([i]);
+
+public static int max(int[]a, int inputs){
+a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
