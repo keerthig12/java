@@ -1,0 +1,99 @@
+1. class in Java -  a class is  a blue print or a templet that defines the behaviour and properties of an objects. 
+   an object is an instance of a class that has actual values for those properties. a class is used to create an objects, which are instance of that class.
+
+2. constructor - a constructor is a method, that automatically called when an object of a class is created. the constructor and and method in java differ primarily in their purpose, return type.
+
+3.  types of constructors in Java ;
+	
+	 1) default constructor
+	2)No parameter constructor
+	3) Parameter constructor
+
+4. Can a constructor be private -- yes
+   can be used - immutable classes
+		      - utility classes
+		      -  factory methods
+		      - in preventing instantiation
+
+5. Aggregation in java- a aggregation in java represents a has-a relationship b/w 2 classes, where 1 class contains a reference to other class.
+
+6. inheritance  in java -  the inheritance  is the method to create a hierarchy b/w classes by inheriting from another classes( acquiring all the properties of a parent class)
+
+The inheritance  is used for - by using inheritance  we can achieve the multiple inheritance, the inheritance promotes the code reusability, 
+creating the hierarchical relationship b/w classes, allowing new classes to inherit, for polymorphism, flexibility and extensibility.
+
+7.  types of inheritance :
+
+a) Single Inheritance
+b) multi-level Inheritance
+c) multiple Inheritance
+d) hierarchical Inheritance
+e)Hybrid  Inheritance
+
+8.  use of the super keyword in inheritance - it allows a subclass to access and invoke the variables, methods, constructors from it's parent class, enabling code reusability and extensions of functionalities.
+
+9.Java doesn't  support multiple inheritance with classes because to avoid the diamond problem which causes complexity and ambiguity. (we can achieve the multiple inheritance in java with the help of interfaces.
+
+10. static variable-it is a single copy of  variables, shared for all the variables
+
+How is it different from an instance variable-  in java a static variable is associated with the class itself rather than with any specific objects of the class, it is declared using the static keyword. in contrast, an instance variable is associated with each object of the class and is declared without the static keyword, statics can be used in variables, methods and blocks.
+
+
+12. static block in Java- the static block is a set of instructions that is run only once when a class is loaded into memory.(it is used to initialize the static variables).
+
+it is executed before the main method.
+
+13. Can a class have multiple static blocks  --- Yes, and they are executed sequentially in the order they appear in the code, from top to bottom, during the class loading.
+
+14) the primary use case of a static block in java is to initialize static variables and perform one time setup tasks when a class is loaded.
+
+
+15) the main method is static in java because the main method in java is declared as static to allow the java virtual machine (jvm) to invoke it directly without creating an instance of the class. when a java program starts, the JVM loads the class containing the main method and then calls the main method to begin execution.
+
+
+Find the Output the following code below:
+
+1) Classes and Objects:
+
+out put -- 15
+
+2)Constructors:
+
+out put --  Parameterized constructor : 100
+Default constructor
+
+3) Association (Has-A Relationship):
+
+out put-- cores:8
+	    -- cores:4
+
+4)Access Specifiers:
+
+out put-- 10
+	     -- 20
+
+5) Static Methods:
+
+out put-- Child static
+
+6) Static Variables:
+
+out put--3(the number of instances created & the number of times the constructor was called ie, 3 times c1,c2,c3).
+
+7) Static Block:
+
+out put-- Static block executed
+	    --  50	
+8) Inheritance:
+
+out put -- Dog runs
+
+
+
+
+
+
+
+
+
+
